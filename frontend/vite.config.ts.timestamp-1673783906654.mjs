@@ -1,0 +1,18 @@
+// vite.config.ts
+import { defineConfig } from "file:///home/runner/RegisterLogin-Practice/node_modules/vite/dist/node/index.js";
+import vue from "file:///home/runner/RegisterLogin-Practice/node_modules/@vitejs/plugin-vue/dist/index.mjs";
+var vite_config_default = defineConfig({
+  plugins: [vue()]
+  // build: {
+  // 在 outDir 中生成 manifest.json
+  // manifest: true,
+  // rollupOptions: {
+  // 覆盖默认的 .html 入口
+  // input: '/path/to/main.js'
+  // }
+  // }
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcudHMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCIvaG9tZS9ydW5uZXIvUmVnaXN0ZXJMb2dpbi1QcmFjdGljZS9mcm9udGVuZFwiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9maWxlbmFtZSA9IFwiL2hvbWUvcnVubmVyL1JlZ2lzdGVyTG9naW4tUHJhY3RpY2UvZnJvbnRlbmQvdml0ZS5jb25maWcudHNcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfaW1wb3J0X21ldGFfdXJsID0gXCJmaWxlOi8vL2hvbWUvcnVubmVyL1JlZ2lzdGVyTG9naW4tUHJhY3RpY2UvZnJvbnRlbmQvdml0ZS5jb25maWcudHNcIjtpbXBvcnQgeyBkZWZpbmVDb25maWcgfSBmcm9tICd2aXRlJ1xuaW1wb3J0IHZ1ZSBmcm9tICdAdml0ZWpzL3BsdWdpbi12dWUnXG5cbi8vIGh0dHBzOi8vdml0ZWpzLmRldi9jb25maWcvXG5leHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoe1xuICBwbHVnaW5zOiBbdnVlKCldLFxuICAvLyBidWlsZDoge1xuICAvLyBcdTU3Mjggb3V0RGlyIFx1NEUyRFx1NzUxRlx1NjIxMCBtYW5pZmVzdC5qc29uXG4gIC8vIG1hbmlmZXN0OiB0cnVlLFxuICAvLyByb2xsdXBPcHRpb25zOiB7XG4gIC8vIFx1ODk4Nlx1NzZENlx1OUVEOFx1OEJBNFx1NzY4NCAuaHRtbCBcdTUxNjVcdTUzRTNcbiAgLy8gaW5wdXQ6ICcvcGF0aC90by9tYWluLmpzJ1xuICAvLyB9XG4gIC8vIH1cbn0pXG4iXSwKICAibWFwcGluZ3MiOiAiO0FBQXNULFNBQVMsb0JBQW9CO0FBQ25WLE9BQU8sU0FBUztBQUdoQixJQUFPLHNCQUFRLGFBQWE7QUFBQSxFQUMxQixTQUFTLENBQUMsSUFBSSxDQUFDO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQVNqQixDQUFDOyIsCiAgIm5hbWVzIjogW10KfQo=
